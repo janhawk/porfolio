@@ -21,6 +21,10 @@
         max-width: 100%;
         height: auto;
       }
+      .scroll-container {
+        height: 100vh;
+        overflow-y: scroll;
+      }
     </style>
   </head>
   <body>
@@ -59,8 +63,10 @@
         </div>
       </nav>
     </header>
-    <div class="container d-flex justify-content-center">
-      <img src="https://imgur.com/abTh2MY.png" class="center-img" width="50%"/>
+    <div class="scroll-container">
+      <div class="container d-flex justify-content-center">
+        <img src="https://imgur.com/abTh2MY.png" class="center-img"/>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
